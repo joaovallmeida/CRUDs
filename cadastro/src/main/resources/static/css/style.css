@@ -1,0 +1,9 @@
+*{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 10px;
+    width: 60%;
+}

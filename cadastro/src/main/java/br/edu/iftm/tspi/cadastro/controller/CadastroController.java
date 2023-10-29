@@ -29,12 +29,10 @@ public class CadastroController {
         } else {
             for (int i = 0; i < cadastro.size(); i++) {
                 if (cadastro.get(i).getEmail().equals(cliente.getEmail())) {
-                    System.out.println("Email já cadastrado");
                     cadastro.get(i).setNome(cliente.getNome());
                     cadastro.get(i).setTelefone(cliente.getTelefone());
                     cadastro.get(i).setEmail(cliente.getEmail());
                 } else {
-                    System.out.println("Email não cadastrado");
                     cadastro.add(cliente);
                 }
             }

@@ -1,13 +1,13 @@
-package br.edu.iftm.tspi.clientes;
+package br.edu.iftm.tspi.contatos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ClientesApplication {
+public class ContatosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClientesApplication.class, args);
+		SpringApplication.run(ContatosApplication.class, args);
 	}
 
 }

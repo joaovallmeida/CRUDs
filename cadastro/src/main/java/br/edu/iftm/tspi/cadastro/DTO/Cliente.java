@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CadastroDTO {
-    private String nome, telefone, email;
+public class Cliente {
+    
+    private String nome, email, telefone;
 }
